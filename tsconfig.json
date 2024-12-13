@@ -4,7 +4,8 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./*"
+        // Em vez de ir para a raiz do projeto configuramos para ir para src
+        "./src/*"
       ]
     }
   },
